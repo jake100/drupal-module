@@ -1,0 +1,8 @@
+; $Id$
+name = Information website
+description = Simple module. Displays username to user.
+package = Informaton
+core = 7.x
+files [] = information.module
+dependancies[] = autoload
+version = z.x-0.alpha

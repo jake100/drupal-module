@@ -1,0 +1,11 @@
+<?php
+
+function information_menu() {
+  $items['info_for_user'] = array(
+    'page callback' => 'info_for_user_page',
+    'title' => 'info page',
+    'file' => 'info_for_user.inc',
+    'access callback' => TRUE,
+  );
+  return $items;
+}
